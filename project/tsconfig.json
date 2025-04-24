@@ -1,0 +1,25 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/account-e2e"
+    },
+    {
+      "path": "./apps/account"
+    },
+    {
+      "path": "./apps/posts-e2e"
+    },
+    {
+      "path": "./apps/posts"
+    },
+    {
+      "path": "./apps/feed-e2e"
+    },
+    {
+      "path": "./apps/feed"
+    }
+  ]
+}
