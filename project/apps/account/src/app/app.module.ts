@@ -14,7 +14,7 @@ import { AuthenticationService } from './auth.service';
     ConfigModule.forRoot({
       isGlobal: true,
       cache: true,
-      // TODO: Передать список конфигураций для загрузки
+      // TODO: Исправить настройки
       load: [],
       envFilePath: ENV_USERS_FILE_PATH,
       ignoreEnvFile: true
