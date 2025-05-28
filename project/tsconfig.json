@@ -4,13 +4,7 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/account-e2e"
-    },
-    {
       "path": "./apps/account"
-    },
-    {
-      "path": "./apps/posts-e2e"
     },
     {
       "path": "./apps/posts"
@@ -20,6 +14,15 @@
     },
     {
       "path": "./apps/feed"
+    },
+    {
+      "path": "./libs/shared/core"
+    },
+    {
+      "path": "./libs/shared/data-access"
+    },
+    {
+      "path": "./libs/blog-models"
     }
   ]
 }
