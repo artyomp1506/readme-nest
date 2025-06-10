@@ -1,1 +1,1 @@
-export const ENV_USERS_FILE_PATH = 'apps/account/account.env'
+export const ENV_USERS_FILE_PATH = 'apps/account/.env'

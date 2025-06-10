@@ -17,7 +17,7 @@ import { AuthenticationService } from './auth.service';
       // TODO: Исправить настройки
       load: [],
       envFilePath: ENV_USERS_FILE_PATH,
-      ignoreEnvFile: true
+     // ignoreEnvFile: true
     }),
     
     MongooseModule.forRootAsync(

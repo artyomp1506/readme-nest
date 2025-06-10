@@ -33,3 +33,7 @@ services:
 volumes:
   readme.mongo.account:
 
+
+networks:
+  posts.blog:
+      driver: bridge
